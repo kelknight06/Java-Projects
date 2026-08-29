@@ -1,0 +1,12 @@
+S101: 90.00
+S102: 79.00
+S103: 96.00
+S104: 75.00
+S105: ERROR:(Invalid Data Format)
+S106: ERROR:(Invalid Data Format)A: ERROR: Non-numeric score.
+S107: ERROR: Invalid Score Value (0-100)
+S108: ERROR: Invalid Score Value (0-100)
+S109: 89.0088: ERROR: Non-numeric score.
+S110: ERROR: Non-numeric score.TEST: ERROR:(Invalid Data Format)
+S111: 99.00
+S112: 87.00

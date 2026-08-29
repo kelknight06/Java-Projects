@@ -1,0 +1,31 @@
+//created by Kel Knight
+//the package that holds our main method for this assignment
+package lab1;
+//import the arrays package so that Arrays.toString can be used to convert the arrays
+import java.util.Arrays;
+//import the package and class to use the method made to combine duplicates of the two arrays into a new array
+import commonFinderMethod.findCommon;
+//make the public class
+public class assignment1 {
+	//make the main method
+	public static void main(String[] args) {
+		//declare and initialize a first array
+		int[] arr1 = {1,2,3,4,5};
+		//declare and initialize a second array with the same length for comparability
+		int[] arr2 = {77,88,2,4,1};
+		//tell the user what the program is doing
+		System.out.println("This program takes two number arrays of the same length.");
+		System.out.println("It will then find any shared numbers and create a new array.");
+		//display both of the arrays to the user so the user can see what they are
+		System.out.println("The first array is: "+Arrays.toString(arr1));
+		System.out.println("The second array is: "+ Arrays.toString(arr2));
+		//declare a new array, dupe, and give it the return value of the called static method
+		//findCommon is the class, commonFinder is the method inside the class
+		//pass the two arrays through the method's parameters
+		int[] dupe = findCommon.commonFinder(arr1,arr2);
+		//convert the array to a string in order to show the user what the array is
+		//show the user the new array while telling them what it is
+		System.out.println("The new array with the shared values of the previous ones is: " + Arrays.toString(dupe));
+
+	}
+}
